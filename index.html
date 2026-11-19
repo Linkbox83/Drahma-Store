@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Drahma Store — considered alpaca knitwear and accessories for women and men.">
+  <title>Drahma Store — Modern heirlooms in alpaca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A considered first edit — our collection is coming soon</div>
+  <header class="site-header">
+    <button class="menu-toggle icon-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <a class="brand" href="#home" aria-label="Drahma Store home">
+      <svg class="brand-mark" viewBox="0 0 44 44" role="img" aria-label="Drahma Store mark">
+        <path d="M6 32.5 18.5 15l6.2 8.1 4.1-5.3L38 32.5H6Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M13 32.5c4-4.1 8.5-4.1 12.4 0 3.9-4.1 7.6-4.1 11.6 0M20.1 15l1.4-3 1.4 3" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-type"><strong>DRAHMA</strong><small>STORE</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#women">Women</a><a href="#men">Men</a><a href="#accessories">Accessories</a><a href="#best-sellers">Best sellers</a>
+    </nav>
+    <div class="header-actions">
+      <a class="text-link about-link" href="#about">About</a>
+      <button class="cart-trigger icon-button" aria-label="Open shopping bag"><span class="bag-icon"></span><span class="bag-label">Bag</span><span class="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A softer point of view</p>
+        <h1>Made for the<br><em>in-between.</em></h1>
+        <p class="hero-description">Natural texture. Quiet confidence. Discover a considered first edit of alpaca knitwear and everyday layers.</p>
+        <a class="button button-dark" href="#women">Explore the collection</a>
+        <div class="hero-note"><span class="rule"></span><span>Woven with intention<br>Rooted in the Andes</span></div>
+      </div>
+      <div class="hero-image-wrap">
+        <img class="hero-image" src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1500&q=88" alt="Soft neutral knitwear in a quiet, natural setting">
+        <div class="hero-caption"><span>THE FIRST EDIT</span><span>01 / 08</span></div>
+      </div>
+      <div class="hero-vertical">DRAHMA STORE · EST. 2026</div>
+    </section>
+
+    <section class="intro-strip">
+      <p>Thoughtfully chosen pieces, made to live in.</p>
+      <a href="#about">Discover our point of view <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="collection-section" id="best-sellers">
+      <div class="section-heading">
+        <div><p class="eyebrow">The Drahma edit</p><h2>Best sellers <span class="heading-dot">—</span> <em>first edition</em></h2></div>
+        <p class="section-note">A curated preview from our eight-piece catalog. Sales history is not available yet.</p>
+      </div>
+      <div class="product-grid" data-collection="featured"></div>
+      <a class="underlined-link" href="#women">Shop the full edit <span>↗</span></a>
+    </section>
+
+    <section class="category-feature" aria-label="Shop by category">
+      <a href="#women" class="category-card category-women">
+        <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1000&q=85" alt="Woman wearing a light, relaxed knit">
+        <span class="category-label"><small>01 / WOMENSWEAR</small><strong>Women</strong><span>Explore knitwear ↗</span></span>
+      </a>
+      <a href="#men" class="category-card category-men">
+        <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=85" alt="Minimal men's knitwear in a warm neutral tone">
+        <span class="category-label"><small>02 / MENSWEAR</small><strong>Men</strong><span>Explore knitwear ↗</span></span>
+      </a>
+      <a href="#accessories" class="category-card category-accessories">
+        <img src="https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=1000&q=85" alt="Soft winter accessories arranged in natural light">
+        <span class="category-label"><small>03 / THE FINISHING TOUCH</small><strong>Accessories</strong><span>Explore the details ↗</span></span>
+      </a>
+    </section>
+
+    <section class="collection-section category-collection" id="women">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / Womenswear</p><h2>Women <em>in soft focus</em></h2></div>
+        <p class="section-note">Four considered silhouettes from our first knitwear edit.</p>
+      </div>
+      <div class="product-grid" data-collection="women"></div>
+    </section>
+
+    <section class="editorial">
+      <div class="editorial-image"><img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1300&q=85" alt="Natural fibers and thoughtful garment details"></div>
+      <div class="editorial-copy"><p class="eyebrow">The material matters</p><h2>Softness, with<br><em>substance.</em></h2><p>Alpaca has a natural warmth and an unmistakable hand. We are building Drahma Store around pieces that earn their place in your everyday wardrobe.</p><a class="underlined-link" href="#about">Read our story <span>↗</span></a></div>
+    </section>
+
+    <section class="collection-section category-collection" id="men">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / Menswear</p><h2>Men <em>made to layer</em></h2></div>
+        <p class="section-note">Two versatile knitwear concepts selected for the opening collection.</p>
+      </div>
+      <div class="product-grid" data-collection="men"></div>
+    </section>
+
+    <section class="collection-section accessories-section" id="accessories">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / Accessories</p><h2>Small details, <em>lasting comfort.</em></h2></div>
+        <p class="section-note">Two practical finishing touches for colder days.</p>
+      </div>
+      <div class="product-grid" data-collection="accessories"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-top"><p class="eyebrow">A note from Drahma Store</p><p class="about-index">A more considered wardrobe<br>begins with what you keep.</p></div>
+      <div class="about-main"><h2>Good things,<br><em>well chosen.</em></h2><div><p>Drahma Store is an emerging clothing brand focused on elevated alpaca knitwear and accessories. We are bringing together pieces with a thoughtful feel, a restrained palette, and room to become favorites.</p><p>Our first edit is being prepared now. We are confirming product details, materials, availability, and pricing before orders open.</p><a class="underlined-link" href="mailto:info@ekmg-global.com">Get in touch <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="policy">
+    <div class="footer-main">
+      <a class="brand brand-footer" href="#home">
+        <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M6 32.5 18.5 15l6.2 8.1 4.1-5.3L38 32.5H6Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M13 32.5c4-4.1 8.5-4.1 12.4 0 3.9-4.1 7.6-4.1 11.6 0M20.1 15l1.4-3 1.4 3" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>
+        <span class="brand-type"><strong>DRAHMA</strong><small>STORE</small></span>
+      </a>
+      <p>Elevated layers for the everyday.</p>
+      <div class="footer-links"><a href="#about">About</a><a href="#policy-details" class="policy-open">Store policy</a><a href="mailto:info@ekmg-global.com">Contact</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Drahma Store</span><span>First collection preview · Details subject to confirmation</span><button class="policy-open policy-button" type="button">Shipping & returns</button></div>
+  </footer>
+
+  <div class="cart-overlay" aria-hidden="true"></div>
+  <aside class="cart-drawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-head"><div><p class="eyebrow">Your selection</p><h2>Shopping bag <span class="drawer-count">(0)</span></h2></div><button class="drawer-close icon-button" aria-label="Close shopping bag">×</button></div>
+    <div class="cart-items"></div>
+    <div class="cart-empty"><p>Your bag is waiting.</p><span>Explore the first Drahma Store edit.</span><button class="button button-dark continue-shopping">Continue exploring</button></div>
+    <div class="cart-footer"><p>We are preparing the first release. Checkout will open once pricing, availability, and store policies are confirmed.</p><button class="button button-outline" type="button" disabled>Checkout coming soon</button></div>
+  </aside>
+
+  <div class="policy-modal" role="dialog" aria-modal="true" aria-labelledby="policy-title" aria-hidden="true">
+    <div class="policy-panel"><button class="policy-close icon-button" aria-label="Close store policy">×</button><p class="eyebrow">Before you order</p><h2 id="policy-title">Store policy</h2><p>Drahma Store is preparing its first collection. We have not opened checkout yet.</p><h3>Shipping & delivery</h3><p>Shipping destinations, rates, and delivery estimates will be posted here before orders open.</p><h3>Returns & exchanges</h3><p>Return and exchange terms will be published before checkout opens. Please contact us with questions about a product preview.</p><h3>Product details</h3><p>Catalog pieces are previews based on supplier listings. Fiber content, color, size range, stock, and final prices are subject to confirmation.</p><a class="underlined-link" href="mailto:info@ekmg-global.com">Contact Drahma Store <span>↗</span></a></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
