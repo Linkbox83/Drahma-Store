@@ -9,7 +9,7 @@ const products=[
   {id:"baby-half-zip",name:"Baby Alpaca Half Zip — Charcoal",category:"men",supplier:"Qinti",source:"https://www.qintiperu.com/products/100-baby-alpaca-half-zip-sweater-charcoal",image:"assets/product-men-half-zip.webp",number:"08"}
 ];
 const productCard=p=>`<article class="product-card">
-  <div class="product-image-wrap"><img class="product-image" src="${p.image}" alt="${p.category === 'accessories' ? p.name + ' product still life' : p.name + ' modeled for Drahma Store'}" loading="lazy"><span class="product-number">${p.number}</span><button class="quick-add" data-add="${p.id}" type="button">Add to bag</button></div>
+  <div class="product-image-wrap ${p.category}-image-wrap"><img class="product-image" src="${p.image}" alt="${p.category === 'accessories' ? p.name + ' product still life' : p.name + ' modeled for Drahma Store'}" loading="lazy"><span class="product-number">${p.number}</span><button class="quick-add" data-add="${p.id}" type="button">Add to bag</button></div>
   <div class="product-info"><div><h3>${p.name}</h3><p>${p.supplier} · Preview</p></div><span class="product-price">Coming soon</span></div>
 </article>`;
 document.querySelectorAll("[data-collection]").forEach(grid=>{
