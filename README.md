@@ -4,7 +4,7 @@ A responsive static storefront for Drahma Store's first alpaca edit.
 
 ## Storefront
 
-- Women, Men, Accessories, About, Store policy, and a shopping bag preview
+- English and Spanish storefront toggle, Women, Men, Accessories, About, Store policy, and a shopping bag preview
 - Pre Black Friday hero campaign with a model wearing a visual interpretation of the supplied Tessa cable cardigan
 - The supplied Drahma Store logo, with custom editorial visuals for all eight catalog pieces: one woman in four distinct poses, one consistent male model for both sweaters, and product-only scarf and sock still lifes, all against the same light studio background with safe headroom
 - Minimal warm palette with restrained gold lines and details

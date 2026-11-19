@@ -26,3 +26,5 @@
 
 .women-image-wrap .product-image,.men-image-wrap .product-image{object-position:center 8%}
 .category-women img,.category-men img{object-position:center 8%}
+
+.language-toggle{font-weight:600;color:var(--gold)}
