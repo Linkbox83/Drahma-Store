@@ -2,3 +2,24 @@
 @media(max-width:900px){.site-header{padding:0 4%;grid-template-columns:1fr auto 1fr}.main-nav{gap:17px}.main-nav a,.text-link,.bag-label{font-size:11px}.hero{padding-left:7%;padding-right:4%;grid-template-columns:46% 54%}.hero-image-wrap{height:80%;min-height:450px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:24px}.category-feature{padding:0 4%;gap:9px}.category-card{height:370px}.section-heading{align-items:start;flex-direction:column;gap:14px}.section-note{max-width:380px}.accessories-section .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.announcement{height:29px;font-size:8px;letter-spacing:.11em}.site-header{height:67px;grid-template-columns:42px 1fr 80px;padding:0 16px}.menu-toggle{display:flex;flex-direction:column;gap:5px;width:36px}.menu-toggle span{display:block;width:18px;height:1px;background:var(--ink)}.brand{justify-self:center}.brand-mark{width:31px;height:31px}.brand-type strong{font-size:12px}.brand-type small{font-size:8px}.header-actions{gap:0}.about-link{display:none}.bag-label{display:none}.main-nav{position:absolute;top:67px;left:0;right:0;display:flex;flex-direction:column;align-items:stretch;gap:0;background:var(--paper);padding:0 22px;max-height:0;overflow:hidden;transition:max-height .25s;border-bottom:0}.main-nav.open{max-height:280px;border-bottom:1px solid var(--line);padding-bottom:12px}.main-nav a{padding:14px 0;border-top:1px solid var(--line);font-size:13px}.hero{height:auto;min-height:0;padding:40px 18px 26px;display:flex;flex-direction:column;align-items:stretch}.hero-copy{padding:8px 6px 30px}.hero h1{font-size:62px}.hero-description{font-size:14px}.hero-note{margin-top:29px}.hero-image-wrap{height:460px;min-height:0}.hero-vertical{display:none}.intro-strip{padding:18px 20px;display:block}.intro-strip p{font-size:18px;margin-bottom:11px}.intro-strip a{font-size:9px}.collection-section{padding:68px 18px}.section-heading{margin-bottom:23px}.section-heading h2{font-size:37px}.section-note{font-size:11px}.product-grid{gap:20px 10px}.product-image-wrap{aspect-ratio:.72}.product-info{display:block;padding:9px 0}.product-info h3{font-size:11px}.product-price{display:block;margin-top:6px}.quick-add{opacity:1;transform:none;min-height:36px;font-size:8px}.product-number{top:8px;left:8px;font-size:8px}.product-badge{top:8px;right:8px;font-size:7px}.category-feature{grid-template-columns:1fr;padding:0 18px;gap:10px}.category-card{height:370px}.category-label{left:20px;bottom:21px}.category-label strong{font-size:34px}.editorial{grid-template-columns:1fr}.editorial-image{height:360px;min-height:0}.editorial-copy{padding:54px 25px 62px}.editorial h2{font-size:48px}.category-collection{padding-top:68px;padding-bottom:68px}.accessories-section .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-section{padding:74px 21px 82px}.about-top{display:block}.about-index{margin-top:12px}.about-main{grid-template-columns:1fr;gap:24px;padding-top:28px}.about-main h2{font-size:58px}.site-footer{padding:38px 22px 18px}.footer-main{grid-template-columns:1fr 1fr;gap:18px;padding-bottom:34px}.footer-main>p{grid-column:1/3;grid-row:2;margin-top:5px}.footer-links{grid-column:2;grid-row:1}.footer-bottom{align-items:flex-start;flex-direction:column;gap:9px;font-size:8px}.cart-drawer{padding:23px}.policy-panel{padding:42px 25px}.policy-panel h2{font-size:34px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Drahma Store gold details and supplied brand/product imagery */
+:root{--gold:#ad8642;--gold-light:#d7c29a}
+.announcement{border-bottom:1px solid var(--gold);color:var(--gold-light)}
+.site-header{border-bottom-color:rgba(173,134,66,.52)}
+.brand-logo{display:block;width:160px;height:42px;object-fit:contain;mix-blend-mode:multiply}
+.brand-footer .brand-logo{filter:invert(1);mix-blend-mode:screen}
+.hero-copy .eyebrow,.section-heading .eyebrow{color:var(--gold)}
+.hero-image-wrap{outline:1px solid rgba(173,134,66,.7);outline-offset:-10px}
+.hero-note .rule{background:var(--gold)}
+.button-dark{border-color:var(--gold)}
+.button-dark:hover{border-color:var(--gold)}
+.product-image-wrap{border:1px solid rgba(173,134,66,.35);background:#eee8dc}
+.product-image{object-fit:contain;filter:none;background:#eee8dc}
+.product-badge{border:1px solid rgba(173,134,66,.4)}
+.quick-add{border-top:1px solid var(--gold)}
+.underlined-link{border-bottom-color:var(--gold)}
+.category-card{outline:1px solid rgba(215,194,154,.45);outline-offset:-8px}
+.site-footer{border-top:1px solid var(--gold)}
+.policy-panel .eyebrow{color:var(--gold)}
+@media(max-width:640px){.brand-logo{width:136px;height:36px}}
