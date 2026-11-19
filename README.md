@@ -6,7 +6,7 @@ A responsive static storefront for Drahma Store's first alpaca edit.
 
 - Women, Men, Accessories, Best sellers, About, Store policy, and a shopping bag preview
 - Pre Black Friday hero campaign with a model wearing a visual interpretation of the supplied Tessa cable cardigan
-- The Drahma Store logo and all eight supplied catalog visual concepts
+- The supplied Drahma Store logo, with custom editorial visuals for all eight catalog pieces: one woman in four distinct poses, one consistent male model for both sweaters, and product-only scarf and sock still lifes
 - Minimal warm palette with restrained gold lines and details
 - Checkout remains closed while prices, inventory, and store policies are being confirmed
 
@@ -21,6 +21,6 @@ A responsive static storefront for Drahma Store's first alpaca edit.
 7. Patagonia zip sweater — [Classic Alpaca](https://classicalpaca.com/mens-patagonia-alpaca-zip-sweater/dp/13944/)
 8. Baby Alpaca Half Zip — Charcoal — [Qinti](https://www.qintiperu.com/products/100-baby-alpaca-half-zip-sweater-charcoal)
 
-The catalog images are AI visual concepts, not verified inventory photos. The homepage model image is an AI-edited visual concept based on the photo supplied for Drahma Store and the cable cardigan concept. Confirm samples, fiber composition, colors, sizes, stock, wholesale costs, retail pricing, shipping, and return terms before accepting orders. “Best sellers” is a curated first edit because verified sales history is not available.
+The product and model images are AI visual concepts informed by the supplied catalog images and model reference; they are not verified inventory or sample photography. Confirm samples, fiber composition, colors, sizes, stock, wholesale costs, retail pricing, shipping, and return terms before accepting orders. “Best sellers” is a curated first edit because verified sales history is not available.
 
 GitHub Pages source: `main` branch, repository root.

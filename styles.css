@@ -15,7 +15,7 @@
 .button-dark{border-color:var(--gold)}
 .button-dark:hover{border-color:var(--gold)}
 .product-image-wrap{border:1px solid rgba(173,134,66,.35);background:#eee8dc}
-.product-image{object-fit:contain;filter:none;background:#eee8dc}
+.product-image{object-fit:cover;filter:none;background:#eee8dc}
 .product-badge{border:1px solid rgba(173,134,66,.4)}
 .quick-add{border-top:1px solid var(--gold)}
 .underlined-link{border-bottom-color:var(--gold)}

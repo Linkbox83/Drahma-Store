@@ -1,15 +1,15 @@
 const products=[
-  {id:"vivien",name:"Vivien cardigan",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/vivien-alpaca-cardigan/dp/8960/",image:"assets/women-vivien-open-cardigan.webp",number:"01",featured:true},
-  {id:"tessa",name:"Tessa cardigan",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/tessa-alpaca-cardigan/dp/12372/",image:"assets/women-tessa-cable-cardigan.webp",number:"02",featured:true},
-  {id:"brushed-v",name:"Brushed V-neck sweater",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/v-neck-brushed-alpaca-sweater/dp/10827/",image:"assets/women-brushed-v-neck.webp",number:"03"},
-  {id:"ivane",name:"Ivane sweater",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/ivane-alpaca-sweater/dp/6093/",image:"assets/women-ivane-crewneck.webp",number:"04"},
-  {id:"plaid-scarf",name:"Plaid alpaca scarf",category:"accessories",supplier:"Winterborn Alpaca",source:"https://winterbornalpaca.com/products/alpaca-scarves-plaids",image:"assets/accessory-plaid-scarf.webp",number:"05",featured:true},
-  {id:"hiker-socks",name:"Outdoor Hiker socks",category:"accessories",supplier:"Classic Alpaca",source:"https://classicalpaca.com/alpaca-outdoor-hiker-unisex-socks/dp/7544/",image:"assets/accessory-hiker-socks.webp",number:"06"},
-  {id:"patagonia-zip",name:"Patagonia zip sweater",category:"men",supplier:"Classic Alpaca",source:"https://classicalpaca.com/mens-patagonia-alpaca-zip-sweater/dp/13944/",image:"assets/men-patagonia-patterned-zip.webp",number:"07",featured:true},
-  {id:"baby-half-zip",name:"Baby Alpaca Half Zip — Charcoal",category:"men",supplier:"Qinti",source:"https://www.qintiperu.com/products/100-baby-alpaca-half-zip-sweater-charcoal",image:"assets/men-baby-half-zip.webp",number:"08"}
+  {id:"vivien",name:"Vivien cardigan",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/vivien-alpaca-cardigan/dp/8960/",image:"assets/product-women-vivien.webp",number:"01",featured:true},
+  {id:"tessa",name:"Tessa cardigan",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/tessa-alpaca-cardigan/dp/12372/",image:"assets/product-women-tessa.webp",number:"02",featured:true},
+  {id:"brushed-v",name:"Brushed V-neck sweater",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/v-neck-brushed-alpaca-sweater/dp/10827/",image:"assets/product-women-brushed-v.webp",number:"03"},
+  {id:"ivane",name:"Ivane sweater",category:"women",supplier:"Classic Alpaca",source:"https://classicalpaca.com/ivane-alpaca-sweater/dp/6093/",image:"assets/product-women-ivane.webp",number:"04"},
+  {id:"plaid-scarf",name:"Plaid alpaca scarf",category:"accessories",supplier:"Winterborn Alpaca",source:"https://winterbornalpaca.com/products/alpaca-scarves-plaids",image:"assets/product-accessory-scarf.webp",number:"05",featured:true},
+  {id:"hiker-socks",name:"Outdoor Hiker socks",category:"accessories",supplier:"Classic Alpaca",source:"https://classicalpaca.com/alpaca-outdoor-hiker-unisex-socks/dp/7544/",image:"assets/product-accessory-socks.webp",number:"06"},
+  {id:"patagonia-zip",name:"Patagonia zip sweater",category:"men",supplier:"Classic Alpaca",source:"https://classicalpaca.com/mens-patagonia-alpaca-zip-sweater/dp/13944/",image:"assets/product-men-patterned-zip.webp",number:"07",featured:true},
+  {id:"baby-half-zip",name:"Baby Alpaca Half Zip — Charcoal",category:"men",supplier:"Qinti",source:"https://www.qintiperu.com/products/100-baby-alpaca-half-zip-sweater-charcoal",image:"assets/product-men-half-zip.webp",number:"08"}
 ];
 const productCard=p=>`<article class="product-card">
-  <div class="product-image-wrap"><img class="product-image" src="${p.image}" alt="${p.name} — visual preview" loading="lazy"><span class="product-number">${p.number}</span>${p.featured?'<span class="product-badge">First edit</span>':''}<button class="quick-add" data-add="${p.id}" type="button">Add to bag</button></div>
+  <div class="product-image-wrap"><img class="product-image" src="${p.image}" alt="${p.category === 'accessories' ? p.name + ' product still life' : p.name + ' modeled for Drahma Store'}" loading="lazy"><span class="product-number">${p.number}</span>${p.featured?'<span class="product-badge">First edit</span>':''}<button class="quick-add" data-add="${p.id}" type="button">Add to bag</button></div>
   <div class="product-info"><div><h3>${p.name}</h3><p>${p.supplier} · Preview</p></div><span class="product-price">Coming soon</span></div>
 </article>`;
 document.querySelectorAll("[data-collection]").forEach(grid=>{
